@@ -32,7 +32,7 @@ const AdminLogin = () => {
             validationSchema={validationSchema}
             onSubmit={async (values, actions) => {
               // Handle form submission here
-              await fetch("http://localhost:5500/admin/login", {
+              await fetch("https://pollpoint-1.onrender.com/admin/login", {
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json",

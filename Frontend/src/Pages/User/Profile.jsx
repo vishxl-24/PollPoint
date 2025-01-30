@@ -26,7 +26,7 @@ const UserProfile = () => {
     if (storedEmail && storedToken) {
       const fetchUserData = async (email) => {
         try {
-          const response = await axios.get("http://localhost:5500/users/get", {
+          const response = await axios.get("https://pollpoint-1.onrender.com/users/get", {
             headers: {
               Authorization: `Bearer ${storedToken}`,
             },

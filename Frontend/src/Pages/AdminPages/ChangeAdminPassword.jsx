@@ -17,7 +17,7 @@ const ChangeAdminPassword = ({adminEmail, show, handleClose }) => {
 
   const handleSubmit = async (values, actions) => {
     try {
-      const response = await axios.post('http://localhost:5500/admin/changepassword', {
+      const response = await axios.post('https://pollpoint-1.onrender.com/admin/changepassword', {
         email:adminEmail, 
         old_password: values.old_password,
         new_password: values.new_password,

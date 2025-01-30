@@ -9,7 +9,7 @@ const PollingResults = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:5500/polling');
+        const response = await fetch('https://pollpoint-1.onrender.com/polling');
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }

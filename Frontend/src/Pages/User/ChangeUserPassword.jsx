@@ -16,7 +16,7 @@ const ChandeUserPassword = ({useremail, show, handleClose }) => {
 
   const handleSubmit = async (values, actions) => {
     try {
-      const response = await axios.post('http://localhost:5500/users/changepassword', {
+      const response = await axios.post('https://pollpoint-1.onrender.com/users/changepassword', {
         email: useremail, 
         old_password: values.old_password,
         new_password: values.new_password,

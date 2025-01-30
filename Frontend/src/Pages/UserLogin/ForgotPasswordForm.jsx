@@ -24,7 +24,7 @@ const ForgotPasswordForm = () => {
           initialValues={{ email: "" }}
           validationSchema={validationSchema}
           onSubmit={async (values, actions) => {
-            await fetch("http://localhost:5500/users/forgotpassword", {
+            await fetch("https://pollpoint-1.onrender.com/users/forgotpassword", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",

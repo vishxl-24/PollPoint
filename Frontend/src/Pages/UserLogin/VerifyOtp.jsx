@@ -41,7 +41,7 @@ const VerifyOtp = () => {
               // Handle OTP validation
               try {
           
-                const response = await axios.post("http://localhost:5500/users/validateotp", {
+                const response = await axios.post("https://pollpoint-1.onrender.com/users/validateotp", {
                   email:useremail,
                   otp: values.otp,
                 });
