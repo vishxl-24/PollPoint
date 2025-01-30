@@ -11,5 +11,10 @@
     "newman": "^6.1.2",
     "nodemailer": "^6.10.0",
     "nodemon": "^3.1.0"
-  }
+  },
+  "scripts": {
+  "start": "node index.js"
 }
+
+}
+
