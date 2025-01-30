@@ -10,7 +10,7 @@ function Home() {
       <HomeSlider />
       <Blog />
      <Results/>
-      <Login/>
+      {/* <Login/> */}
     </div>
   );
 }

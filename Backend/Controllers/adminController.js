@@ -16,6 +16,7 @@ const loginAdmin = async (req, res) => {
     // Find the admin by email
     const user = await admin.findOne({ email: email });
 
+
     if (!user) {
       console.log("Invalid email or password");
       return res.status(400).json({

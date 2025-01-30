@@ -45,6 +45,9 @@ const updateCandidate = async (req, res) => {
   const isUser =  prevemail!=email&&(await candidate.findOne({ email: email }));
   
   if (!isUser) {
+
+
+    
     await candidate
       .findOneAndUpdate(
         { email: req.body.prevemail},

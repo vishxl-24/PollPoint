@@ -11,10 +11,10 @@ function Footer() {
         
           <Col xs={12} md={4}>
             <h5 className="text-uppercase fw-bold mb-4">
-              E Vote
+              PollPoint
             </h5>
             <p>
-              E Vote is a web application that allows users to vote for their favorite candidates in an election. The application is designed to be easy to use.
+              PollPoint is a web application that allows users to vote for their favorite candidates in an election. The application is designed to be easy to use.
             </p>
           </Col>
           <Col xs={12} md={4}>
@@ -39,7 +39,7 @@ function Footer() {
               </li>
               <li>
                 <a href="#!" className="text-decoration-none text-dark">
-                <i className="fa fa-globe me-2"></i> www.evote.com
+                <i className="fa fa-globe me-2"></i> www.pollpoint.com
                 </a>
               </li>
             </ul>
