@@ -45,7 +45,7 @@ function Header() {
             </li>
            
             <li className="nav-item">
-              <Link className="nav-link" to="/admin">
+              <Link className="nav-link" to="/adminlogin">
                 Admin
               </Link>
             </li>

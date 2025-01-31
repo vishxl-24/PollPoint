@@ -96,6 +96,11 @@ const UserProfile = () => {
     } catch (error) {
       console.error("Error voting:", error);
     }
+
+    navigate("/");
+    setTimeout(() => {
+      alert(`voted successfully,logged out...`);
+    }, 1000);
   };
 
   const handleShowModal = () => setShowModal(true);
